@@ -36,7 +36,8 @@ case $input in
       sleep 1
 
       echo "Moving configuration files"
-      cd ~/rpi-inhot
+      cd ..
+      cd ..
       sudo rm -rf /etc/dhcp/dhcpd.conf
       sudo cp dhcp.conf /etc/dhcp/
       sudo rm -rf /etc/default/isc-dhcp-server
