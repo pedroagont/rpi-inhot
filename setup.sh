@@ -89,13 +89,16 @@ case $input in
 
       echo "All done!"
       sleep 2
-
-      echo "Reboot your system to make changes work"
+      
+      echo "Use sudo reboot command to make changes work"
+      sleep 2
+      
+      echo "Remember you can always change your wifi connection by simply modifying the arguments "ssidnetwork" and "password" on /etc/network/interfaces file"
       sleep 2
 
       echo "To see connected devices on your Pi use the arp command: sudo arp –i wlan0"
       sleep 2
-    
+      
       ;;
     
     [nN][oO]|[nN])
