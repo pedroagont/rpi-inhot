@@ -8,8 +8,8 @@ The standard configuration will create a new wireless network called "rpi-hotspo
 To connect to any wifi simply change the following arguments on the /etc/network/interfaces file:
     allow-hotplug wlan1
     iface wlan1 inet dhcp
-      wpa-ssid "YourWifi"
-      wpa-psk "YourPassword"
+      wpa-ssid "ssidnetwork"
+      wpa-psk "password"
 
 
 
